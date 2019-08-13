@@ -1,3 +1,4 @@
+__precompile__(true)
 module HELM
 
 
@@ -51,6 +52,5 @@ macro h6(str)
 end
 macro p(str)
   html("p", eval(str))
-end
 end
 end # module
